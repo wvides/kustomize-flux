@@ -3,6 +3,9 @@ kind: Kustomization
 
 bases:
   - ../base
+resources:
+  - namespace.yaml
+namespace: stg
 images:
   - name: nginx
     newTag: 1.0.0
