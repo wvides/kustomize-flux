@@ -1,8 +1,7 @@
 apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: test
-  namespace: test
+  name: backendhpa
 spec:
   minReplicas: 2
   maxReplicas: 3

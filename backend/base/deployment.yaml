@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend
-  namespace: backend
+  namespace: application
 spec:
   selector:
     matchLabels:
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.19-alpine
+          image: omarvides/backend-color-api:latest
           resources:
             limits:
               memory: "50Mi"

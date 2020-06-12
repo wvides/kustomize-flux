@@ -5,4 +5,4 @@ bases:
   - ../base
 images:
   - name: nginx
-    newTag: 1.17-alpine
+    newTag: 1.0.0
