@@ -6,3 +6,11 @@ metadata:
     flux.weave.works/automated: "true"
   name: backend
   namespace: application
+spec:
+  template:
+    spec:
+      $setElementOrder/containers:
+      - name: nginx
+      containers:
+      - image: omarvides/backend-color-api:1.0.0
+        name: nginx
