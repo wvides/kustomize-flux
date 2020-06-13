@@ -8,3 +8,4 @@ A basic example kustomize repository to test flux-cd
   - base manifests
   - Staging environment patches (stg)
   - Production environment patches (prod)
+  - [WIP] Development environment, should have plenty of dev environments and should be able to create new, it might be better to put this in a different repo
