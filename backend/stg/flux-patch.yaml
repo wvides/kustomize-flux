@@ -5,4 +5,4 @@ metadata:
   annotations:
     flux.weave.works/automated: "true"
   name: backend
-  namespace: deployment
+  namespace: application
