@@ -4,5 +4,14 @@ kind: Deployment
 metadata:
   annotations:
     flux.weave.works/automated: "true"
+    fluxcd.io/tag.backend: glob:1.*.*
   name: backend
   namespace: application
+spec:
+  template:
+    spec:
+      $setElementOrder/containers:
+      - name: nginx
+      containers:
+      - image: omarvides/backend-color-api:1.3.0
+        name: nginx
