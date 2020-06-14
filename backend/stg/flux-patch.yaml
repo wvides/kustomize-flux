@@ -13,5 +13,5 @@ spec:
       $setElementOrder/containers:
       - name: nginx
       containers:
-      - image: omarvides/backend-color-api:1.1.0
+      - image: omarvides/backend-color-api:1.0.0
         name: nginx
