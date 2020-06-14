@@ -5,4 +5,4 @@ metadata:
   annotations:
     flux.weave.works/locked: "true"
   name: backend
-  namespace: application
+  namespace: prod
