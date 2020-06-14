@@ -1,0 +1,1 @@
+{"jobID":"ac06fab1-24db-654d-da49-becc06cdf537","spec":{"type":"policy","cause":{"Message":"","User":"Walter Vides \u003comarvides@gmail.com\u003e"},"spec":{"application:deployment/backend":{"add":{"tag.backend":"glob:1.*.*"},"remove":{}}}},"result":null}
