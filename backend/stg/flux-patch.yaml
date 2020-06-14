@@ -4,6 +4,7 @@ kind: Deployment
 metadata:
   annotations:
     flux.weave.works/automated: "true"
+    fluxcd.io/tag.backend: glob:1.*.*
   name: backend
   namespace: application
 spec:
